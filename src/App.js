@@ -1,22 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import PizzaList from './pizzerias/pizzeriaslist';
 
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/51D4D1X620L._SX218_BO1,204,203,200_QL40_FMwebp_.jpg" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Web App for Pizza lovers
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>
+          Pizza vs Pizza
+        </h1>
+        <PizzaList/>
       </header>
     </div>
   );
