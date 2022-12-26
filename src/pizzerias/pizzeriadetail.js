@@ -35,6 +35,8 @@ class PizzaDetail extends Component{
         return (
             <div style={{ color: 'yellow', border:'1px solid yellow'}}>
                 <h4>{obj.pizzeria_name}</h4>
+                <img src= {obj.logo_image} alt="logo" />
+
                 <h5>
                     Address:{obj.street} {obj.city} {obj.state} {obj.zip_code}</h5>
                 <h6>Phone:{obj.phone_number}</h6>
